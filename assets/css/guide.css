@@ -1,0 +1,86 @@
+/* line 1, sass/guide.scss */
+body {
+  background-color: #e9e9e9;
+}
+
+/* line 3, sass/guide.scss */
+#content {
+  margin-top: 100px;
+}
+
+/* line 4, sass/guide.scss */
+.underline {
+  padding-bottom: 40px;
+  border-bottom: solid 5px #c9c9c9;
+}
+
+/* line 10, sass/guide.scss */
+.main-nav {
+  margin-bottom: 40px;
+}
+/* line 11, sass/guide.scss */
+.main-nav .logo {
+  margin-bottom: 0px;
+}
+/* line 12, sass/guide.scss */
+.main-nav li {
+  padding: 5px 25px;
+  font-size: em(16px);
+}
+/* line 14, sass/guide.scss */
+.main-nav li a {
+  color: #ce8811;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 15, sass/guide.scss */
+.main-nav li a:hover {
+  text-decoration: underline;
+}
+
+/* line 21, sass/guide.scss */
+.section-content {
+  border-bottom: solid 1px #c9c9c9;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+/* line 23, sass/guide.scss */
+.showcase {
+  background: #d9d9d9;
+  text-align: center;
+  font-size: 11px;
+}
+
+/* line 26, sass/guide.scss */
+.grid-show .row {
+  margin-bottom: 10px;
+}
+
+/* line 29, sass/guide.scss */
+pre {
+  background: #f6f7fa;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  /* line 36, sass/guide.scss */
+  #content {
+    margin-top: 20px;
+  }
+
+  /* line 40, sass/guide.scss */
+  .main-nav li {
+    display: block;
+  }
+  /* line 41, sass/guide.scss */
+  .main-nav li a {
+    padding: 0 10px;
+  }
+
+  /* line 47, sass/guide.scss */
+  .grid-show .row {
+    margin-bottom: 0px;
+  }
+}

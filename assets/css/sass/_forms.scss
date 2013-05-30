@@ -1,0 +1,19 @@
+
+
+input[type="text"],input[type="email"],textarea,.select-wrap {background:#f8f8f8; border:solid 1px #d7ded8;
+
+	@include gradient4; box-shadow:inset 0px 1px 0px rgba(255,255,255,.9);	
+}
+
+address {
+	p {font-size:em(14px); margin-bottom:10px; line-height:19px;}
+	label {@include voll; font-style:italic; font-size:em(13px); display:block; margin-bottom:8px;}
+}
+
+.ed-form {
+	label {display:block; font-weight:bold;  margin-bottom:10px; color:$blue1; font-size:em(13px); @include open; text-transform:uppercase;}
+	input[type="text"],input[type="email"],.select-wrap {width:100%; margin-bottom:15px;padding:13px 10px;}
+
+	select {background:none;width:100%;}
+	textarea {width:100%; padding:40px 20px; min-height:285px; margin-bottom:40px;}
+}

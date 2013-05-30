@@ -1,0 +1,21 @@
+@media screen and (max-width:800px){
+
+	.container {padding:0 20px;}
+	.row-full {}
+	.container, .row, .row [class*="col"], .row [class*="grid"]  {
+	    float: none !important;
+	    margin-left: 0 !important;
+	    margin-right:0 !important;
+	    min-height: 1px;
+	    width:100%;
+	}
+	[class*="col"],[class*="grid"] {margin-bottom:10px;}
+	.module,.module-left,.module-right, .contentWrap {padding:0;}
+
+	.mobile-inline {
+		li {text-align:center;}
+	}
+
+
+
+}//end of media 800px

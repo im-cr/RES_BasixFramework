@@ -1,0 +1,42 @@
+//---------------------------------- GENERAL RESETS
+/*  Font Awesome PROPERTIES
+    ------------------------------------------------------- */
+
+$font-base:10px;
+$font-base-line-height:20px;
+$font-family: arial,sans-serif;
+
+$fontAwesomePath:   "fonts" !default;
+$borderColor:       #eee;
+$iconMuted:         #eee;
+
+
+//---------------------------------- COLORS
+
+$black1:	#55606E;
+
+$brown1:	#806a00;
+
+$blue1:		#18aec1;
+$blue2:		#a7eddf;
+
+$grey1:		#f5f7f7;
+$grey2:		#bdc3c7;
+
+$red1:		#c90707;
+
+
+$white1:	#fefefe;
+
+$yellow1:	#fad30a;
+
+
+
+//---------------------------------- FUNCTIONS
+
+//font px conversion to em
+@function em($target, $context:$font-base){
+	@if($target == 0){@return 0}
+
+	@return $target/$context + 0em;
+}

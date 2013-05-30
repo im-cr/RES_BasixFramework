@@ -1,0 +1,96 @@
+//Grid construction
+$width:	 1080px;
+$gutter:20px;
+$columns: 12;
+$column-width: $width / $columns - 20;
+$max-width: $columns * ($column-width + $gutter);
+$min-width:300px;
+$i: 0;
+
+
+
+.row-full	{width:100%; max-width:100%; left:0;}
+	.container	{width:$width; max-width:100%; margin:0 auto;}
+	.row		{min-width:$min-width; max-width:100%; min-height:1px;
+		
+				
+				/*
+				Columns and grids comprise the structural markup of our grid. Cols form grid
+				patterns that incorporate margins to allow gutters between each column.
+
+				Grids have no margins and directly adjacent to their sibling grid elements
+
+				/*Shared*/
+				[class*="col"],[class*="grid"] {float:left; min-height:1px;}
+				[class*="grid"]:first-child,[class*="col"]:first-child	{margin-left:0;}
+				
+				/*GRIDS*/				
+				[class*="grid"] + [class*="grid"]:last-child 	{float:right;}
+				[class*="grid"] + [class*="grid"].end 			{float:left;}
+
+
+				//COLUMNS 
+				[class*="col"] {margin-left:1%;margin-right:1%;}
+				[class*="col"] + [class*="col"]:last-child 	{float:right; margin-right:0px !important;}
+				[class*="col"] + [class*="col"].end 		{float:left;}
+								
+
+					
+				
+
+				&[class*="grid"] {float:none;}
+				&.module {padding:20px !important;}
+		
+
+	}
+	.module			{padding:20px;}
+	.module-left {padding-left:20px;}
+	.module-right {padding-right:20px;}
+	.module-btm {padding-bottom:20px;}
+
+	.marg-top 	{margin-top:20px;}
+	.marg-right {margin-right:20px;}
+	.marg-btm 	{margin-bottom:20px;}
+	.marg-left 	{margin-left:20px;}
+
+.row:before, .row:after,.row-full:before,.row-full:after,.module:before,.module:after { content:""; display:table; }
+.row:after,.row-full:after,.module:after { clear: both; }
+.row,.row-full,.module {zoom: 1; }
+
+
+//GRID STRUCTURE AND OFFSETS
+	@for $i from 1 through $columns {
+
+		
+
+		.col-#{$i}{
+			@if $i < $columns{	
+				width: $i/$columns * 100% - 2%;
+			} @else{
+				width:100%;
+			}
+		}
+	}
+
+	@for $i from 1 through $columns {
+
+		.grid-#{$i}{
+			@if $i < $columns{	
+				width: $i/$columns * 100%;
+			} @else{
+				width:100%;
+			}
+		}
+	}
+
+
+	@for $i from 1 through $columns{
+		.offset-#{$i} {
+			margin-left: $i/$columns * 100%;
+
+		}
+	}
+
+.center		{margin:0 auto !important; float:none !important;}
+.centered	{text-align:center;}
+

@@ -1,0 +1,117 @@
+/* ---------- RESETS ---------- */
+/*--------------------------------------------------*/
+/* SELECTION COLOR*/
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::-webkit-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,code, pre,sub,sup, form, label,legend,
+fieldset, input, p, blockquote,th,tr,td,iframe,address,article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section,span,svg,sub,sup, summary,time, mark, audio, video{
+	border:0;
+	margin:0; 
+	padding:0; 
+	position:relative;
+	vertical-align:baseline;
+
+	/*BORDER/PADDING SIZING*/
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	 
+	 /*BACKGROUND CLIPPING*/
+	-webkit-background-clip:padding-box;
+	-moz-background-clip:padding-box;
+	background-clip:padding-box;
+
+}
+*:before,*:after	{
+	/*BORDER/PADDING SIZING*/
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	 
+	 /*BACKGROUND CLIPPING*/
+	-webkit-background-clip:padding-box;
+	-moz-background-clip:padding-box;
+	background-clip:padding-box;
+}
+table { border-collapse:collapse; border-spacing:0;/*removes most spacing in cells*/ }
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal; }
+ol, ul, li { list-style:none; }
+caption, th { text-align:left; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+blockquote:before, blockquote:after,q:before, q:after { content:'';content:none;}
+strong,th,b { font-weight:bold; }
+em,dfn { font-style:italic; }
+
+/*LINK STYLES*/
+a,a img,a:active,a:focus, a:active 		{border:none;outline:none; text-decoration:none; } /* Gets rid of IE's blue borders */
+a 						{color:$blue1;}
+a:active,a:focus  		{}
+a:link					{}
+a:visited				{}
+
+/*FORM STYLES*/
+button,input,select, textarea { line-height: normal; font-family:inherit; font-size:100%; margin:0;}
+textarea {overflow:auto; vertical-align: top;}
+input[type="checkbox"],input[type="radio"] 	{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box; padding:0;}
+button[disabled], html input[disabled] {cursor: default;}
+button,html input[type="button"],input[type="reset"],input[type="submit"] {-webkit-appearance: button;cursor: pointer;}
+
+
+/*BLOCK DISPLAY  ELEMENTS*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main,menu, nav, section,summary{
+	display:block; position:relative;
+}
+
+/*INLINE DISPLAY ELEMENTS*/
+audio,canvas,video {display:inline-block;}
+audio:not([controls]) { display: none;height: 0;}
+
+/*VIDEO & IMAGE */
+img,object,video,iframe {max-width:100%;}
+.videoWrapper {padding-bottom:56.25%; padding-top:20px; height:0;
+	video, embed, iframe, object	{position:absolute; top:0; left:0; width:100% !important; height:100% !important;}
+}
+svg:not(:root)  {overflow:hidden;}
+
+
+/* ---------- TYPE ---------- */
+/*--------------------------------------------------*/
+/*Misc type elements*/
+abbr[title] {border-bottom:1px dotted;}
+hr  {-webkit-box-sizing:content-box;-moz-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box; height:0;}
+mark {background:#ff0; color:#000;}
+code,kbd,pre,samp {font-family:monospace, serif; font-size:em(13px);}
+pre {white-space:pre-wrap; overflow-X:scroll; background:#f6f7fa; padding:40px 25px; }
+q 	{quotes: "\201C" "\201D" "\2018" "\2019";}
+small {font-size:80%;}
+sub, sup  {font-size:75%;line-height:0; vertical-align: baseline;}
+sup {top:-0.5em;}
+sub {bottom:-0.25em;}
+
+/*Main Type elements*/
+p	{font-size:em(16px);line-height:25px; margin-bottom:25px; color:$black1;
+	a {text-decoration:underline;}
+}
+
+h1, h2, h3, h4, h5		{font-family:sans-serif; }
+h1						{font-size:em(52px);}
+h2						{font-size:em(26px);}
+h3						{font-size:em(18px);}
+h4						{font-size:em(16px);}
+h5						{font-size:em(14px);}
+
+
+
+
+/*PAGE SPECIFIC*/
+html,body	{height:100%;}
+html 		{font-size:16px /*declare base font size*/;}
+body 		{font-size:62.5%; @include open; height:100%; }
+
+
+
