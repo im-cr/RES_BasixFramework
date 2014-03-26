@@ -1,141 +1,392 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8" />
 	<title>Basix - The Super Simple responsive boilerplate</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/guide.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/shCore.css" />
-		<link rel="stylesheet" type="text/css" href="assets/css/shThemeDefault.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />		
+		<link rel="stylesheet" type="text/css" href="assets/css/utilities/shCore.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/utilities/shThemeDefault.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
 
 </head>
 <body>
+	<section class="row container" id="content">
+		<header class="row grid-12 underline">
+			<div class="col-3">
+				<div class="logo"><img class="grid-12" src="assets/css/images/logo-basix.svg" /></div>
+			</div>
+			<div class="col-9 centered module">
+				<h3>A No Bullsh#t Framework for Responsive Web Design</h3>
+			</div>
+		</header>
 
-	<section class="row container" id="content"> 
+	<div class="grid-2">
+		<ul class="row grid-12 main-nav mobile-nav">
+					<li><a href="#what">Getting Started</a></li>
+					<li><a href="#grid">The Grid</a></li>
+					<li><a href="#type">Type</a></li>
+					<li><a href="#buttons">Buttons &amp; Forms</a></li>
+					<li><a href="#media">Media Queries</a></li>
+					<li><a href="#media">CSS Components</a></li>
+		</ul>
+	</div>
+	<div class="grid-10">
+			<div class="row section-content">				
+				<h3 class="title" id="what">Getting Started</h3>
 
-	<div class="grid-8 row center">
-	<ul class="row grid-12 main-nav is-inline centered">
-				<h1 class="logo centered row">
-					<img class="row" src="assets/css/images/logo-basix.svg" />
-				</h1>
-				<li><a href="#what">What is this</a></li>
-				<li><a href="#grid">The Grid</a></li>
-				<li><a href="#type">Type</a></li>
-				<li><a href="#buttons">Buttons &amp; Forms</a></li>
-				<li><a href="#media">Media Queries</a></li>
-			</ul>
+				<h5 class="subheader">Basix is a simple no bullsh#t framework for creating responsive prototypes and websites quickly and easily. Built with <a href="http://sass-lang.com/" target="_blank">Sass</a>, Basix makes it effortless for web workers to create multi-device projects with <abbr title="Sassy CSS">SCSS</abbr> or <abbr title="Cascading Style Sheets">CSS</abbr>.</h5>
 
-			<div class="row section-content">
-				<h2 class="title-page georgia underline">A No Bullsh#t Boilerplate for Responsive Web Design</h2>
+				<p>Intended for web workers that don't need all of the bells, whistles, and dependancies that come with other frameworks, Basix let's you quickly get a responsive framework in place for a web project or prototype without anything more than a handful of pre-determined classes.
+				</p>
 				
-				<h3 class="title-block" id="what">What is this thing?</h3>
-				<p>Basix is a simple no bullsh#t framework for creating quick and responsive prototypes and websites.  </p>
 			</div>
 
 			<div class="row section-content">
+				<h3 class="title" id="grid">The Grid</h3>
+				<p>The Basix Grid alows you to quickly create 12 column nestable grids with only a few classes. Jump right in!</p>
+				
+				<p>The following are examples of ways to use the Basix Grid. The <em class="className">box-sizing: border-box</em> proptery so that borders and padding do not affect the width of the columns.</p>
 
-				<h3 class="title-block" id="grid">The Grid</h3>
-				<p>this is the grid</p>
-
+				
 				<div class="row grid-show">
+					<h5 class="title">Grid without Margins</h5>
+					<p>The no margin grid uses the <em class="className">grid-&lt;1-12&gt;</em> naming convention</p>
+					<div class="row">
+						<div class="grid-1  showcase">1</div>
+						<div class="grid-11 showcase">grid-11</div>
+					</div>
+					<!--row 1 -->
+
+					<div class="row">
+						<div class="grid-2 showcase">grid-2</div>
+						<div class="grid-10 showcase">grid-10</div>
+					</div>
+					<!--row 1 -->
+
+					<div class="row">
+						<div class="grid-3 showcase">grid-3</div>
+						<div class="grid-9 showcase">grid-9</div>
+					</div>
+					<!--row 1 -->
+
+					<div class="row">
+						<div class="grid-4 showcase">grid-4</div>
+						<div class="grid-8 showcase">grid-8</div>
+					</div>
+					<!--row 1 -->
+
+					<div class="row">
+						<div class="grid-5 showcase">grid-5</div>
+						<div class="grid-7 showcase">grid-7</div>
+					</div>
+					<!--row 1 -->
+
+					<div class="row">
+						<div class="grid-6 showcase">grid-6</div>
+						<div class="grid-6 showcase">grid-6</div>
+					</div>
+					<!--row 1 -->
+
+					<div class="row">
+						<div class="grid-7 showcase">grid-7</div>
+						<div class="grid-5 showcase">grid-5</div>
+					</div>
+					<!--row 7 -->
+
+					<div class="row">
+						<div class="grid-8 showcase">grid-8</div>
+						<div class="grid-4 showcase">grid-4</div>
+					</div>
+					<!--row 8 -->
+
+					<div class="row">
+						<div class="grid-9 showcase">grid-9</div>
+						<div class="grid-3 showcase">grid-3</div>
+					</div>
+					<!--row 9 -->
+
+					<div class="row">
+						<div class="grid-10 showcase">grid-10</div>
+						<div class="grid-2 showcase">grid-2</div>
+					</div>
+					<!--row 10 -->
+
+					<div class="row">
+						<div class="grid-11 showcase">grid-11</div>
+						<div class="grid-1 showcase">1</div>
+					</div>
+					<!--row 11 -->
+
+					<div class="row">
+						<div class="grid-12 showcase">grid-12</div>
+						
+					</div>
+					<!--row 12 -->
+					<div class="grid-3 module row center btn btn-green seeCode">
+						SEE CODE
+					</div>
+					
+					<!-- PRE CODE BELOW -->
+					<div class="row coder">
+					<pre class="preCode brush: css">
+						&nbsp;
+						&nbsp;
+
+						/*
+						Grid layout without margins
+						*/
+						<div class="row">
+							<div class="grid-1 ">1</div>
+							<div class="grid-11">grid-11</div>
+						</div>
+						<!--row 1 -->
+
+						<div class="row">
+							<div class="grid-2">grid-2</div>
+							<div class="grid-10">grid-10</div>
+						</div>
+						<!--row 2 -->
+
+						<div class="row">
+							<div class="grid-3">grid-3</div>
+							<div class="grid-9">grid-9</div>
+						</div>
+						<!--row 3 -->
+
+						<div class="row">
+							<div class="grid-4">grid-4</div>
+							<div class="grid-8">grid-8</div>
+						</div>
+						<!--row 4 -->
+
+						<div class="row">
+							<div class="grid-5">grid-5</div>
+							<div class="grid-7">grid-7</div>
+						</div>
+						<!--row 5-->
+
+						<div class="row">
+							<div class="grid-6">grid-6</div>
+							<div class="grid-6">grid-6</div>
+						</div>
+						<!--row 6 -->
+
+						<div class="row">
+							<div class="grid-7">grid-7</div>
+							<div class="grid-5">grid-5</div>
+						</div>
+						<!--row 7 -->
+
+						<div class="row">
+							<div class="grid-8">grid-8</div>
+							<div class="grid-4">grid-4</div>
+						</div>
+						<!--row 8 -->
+
+						<div class="row">
+							<div class="grid-9">grid-9</div>
+							<div class="grid-3">grid-3</div>
+						</div>
+						<!--row 9 -->
+
+						<div class="row">
+							<div class="grid-10">grid-10</div>
+							<div class="grid-2">grid-2</div>
+						</div>
+						<!--row 10 -->
+
+						<div class="row">
+							<div class="grid-11">grid-11</div>
+							<div class="grid-1">1</div>
+						</div>
+						<!--row 11 -->
+
+						<div class="row">
+							<div class="grid-12">grid-12</div>						
+						</div>
+						<!--row 12 -->
+					
+					</pre>
+					</div>
+					<!--// END PRE ABOVE-->
+
+				</div>
+				<!--//grid-show -->
+
+				
+				<div class=" grid-12 row col-show">
+					<h5 class="title">Grid with Margins</h5>
 					<div class="row">
 						<div class="col-1  showcase">1</div>
-						<div class="col-11 showcase">Grid-11</div>
+						<div class="col-11 showcase">Col-11</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-2 showcase">Grid-2</div>
-						<div class="col-10 showcase">Grid-10</div>
+						<div class="col-2 showcase">Col-2</div>
+						<div class="col-10 showcase">Col-10</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-3 showcase">Grid-3</div>
-						<div class="col-9 showcase">Grid-9</div>
+						<div class="col-3 showcase">Col-3</div>
+						<div class="col-9 showcase">Col-9</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-4 showcase">Grid-4</div>
-						<div class="col-8 showcase">Grid-8</div>
+						<div class="col-4 showcase">Col-4</div>
+						<div class="col-8 showcase">Col-8</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-5 showcase">Grid-5</div>
-						<div class="col-7 showcase">Grid-7</div>
+						<div class="col-5 showcase">Col-5</div>
+						<div class="col-7 showcase">Col-7</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-6 showcase">Grid-6</div>
-						<div class="col-6 showcase">Grid-6</div>
+						<div class="col-6 showcase">Col-6</div>
+						<div class="col-6 showcase">Col-6</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-7 showcase">Grid-7</div>
-						<div class="col-5 showcase">Grid-5</div>
+						<div class="col-7 showcase">Col-7</div>
+						<div class="col-5 showcase">Col-5</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-8 showcase">Grid-8</div>
-						<div class="col-4 showcase">Grid-4</div>
+						<div class="col-8 showcase">Col-8</div>
+						<div class="col-4 showcase">Col-4</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-9 showcase">Grid-9</div>
-						<div class="col-3 showcase">Grid-3</div>
+						<div class="col-9 showcase">Col-9</div>
+						<div class="col-3 showcase">Col-3</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-10 showcase">Grid-10</div>
-						<div class="col-2 showcase">Grid-2</div>
+						<div class="col-10 showcase">Col-10</div>
+						<div class="col-2 showcase">Col-2</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-11 showcase">Grid-11</div>
+						<div class="col-11 showcase">Col-11</div>
 						<div class="col-1 showcase">1</div>
 					</div>
 					<!--row 1 -->
 
 					<div class="row">
-						<div class="col-12 showcase">Grid-12</div>
-						
+						<div class="col-12 showcase">Col-12</div>						
 					</div>
 					<!--row 1 -->
-				
-<pre class="brush: css">
-&nbsp;
-&nbsp;
 
-/*
-Basic Grid layout structure
-*/
-<div class="row">
-	<div class="grid-12">Full width content container</div>
-</div>
+					<div class=" row grid-3 module center btn btn-green seeCode">
+						SEE CODE
+					</div>
 
-&nbsp;
-&nbsp;
+					<!-- PRE CODE BELOW -->
+					<div class="row coder">				
+					<pre class="brush: css">
+						&nbsp;
+						&nbsp;
 
+						/*
+						Grid layout with margins
+						*/
+						<div class="row">
+							<div class="col-1 ">1</div>
+							<div class="col-11">Col-11</div>
+						</div>
+						<!--row 1 -->
 
+						<div class="row">
+							<div class="col-2">Col-2</div>
+							<div class="col-10">Col-10</div>
+						</div>
+						<!--row 2 -->
 
+						<div class="row">
+							<div class="col-3">Col-3</div>
+							<div class="col-9">Col-9</div>
+						</div>
+						<!--row 3 -->
 
-</pre>
+						<div class="row">
+							<div class="col-4">Col-4</div>
+							<div class="col-8">Col-8</div>
+						</div>
+						<!--row 4 -->
+
+						<div class="row">
+							<div class="col-5">Col-5</div>
+							<div class="col-7">Col-7</div>
+						</div>
+						<!--row 5-->
+
+						<div class="row">
+							<div class="col-6">Col-6</div>
+							<div class="col-6">Col-6</div>
+						</div>
+						<!--row 6 -->
+
+						<div class="row">
+							<div class="col-7">Col-7</div>
+							<div class="col-5">Col-5</div>
+						</div>
+						<!--row 7 -->
+
+						<div class="row">
+							<div class="col-8">Col-8</div>
+							<div class="col-4">Col-4</div>
+						</div>
+						<!--row 8 -->
+
+						<div class="row">
+							<div class="col-9">Col-9</div>
+							<div class="col-3">Col-3</div>
+						</div>
+						<!--row 9 -->
+
+						<div class="row">
+							<div class="col-10">Col-10</div>
+							<div class="col-2">Col-2</div>
+						</div>
+						<!--row 10 -->
+
+						<div class="row">
+							<div class="col-11">Col-11</div>
+							<div class="col-1">1</div>
+						</div>
+						<!--row 11 -->
+
+						<div class="row">
+							<div class="col-12">Col-12</div>						
+						</div>
+						<!--row 12 -->
+					
+
+						&nbsp;
+						&nbsp;
+
+					</pre>
+					</div>
+					<!--// END PRE ABOVE-->
 
 				</div>
-
-
+				<!-- //END OF COL SHOW -->	
+			
 			</div>
-		
+			<!--//END OF grid section-->
+
 			<div class="row grid-12 section-content">
-				<h3 class="title-block" id="type">Type</h3>
+				<h3 class="title" id="type">Type</h3>
 				
 				<h1>Heading H1</h1>
 				<h2>Heading H2</h2>
@@ -151,6 +402,8 @@ Basic Grid layout structure
 		
 
 	</section>
+	<!--// END OF SECTION -->
+
 
 <footer class="row grid-5 center">
 
@@ -159,14 +412,15 @@ Basic Grid layout structure
 </footer>
 
 
-<script type='text/javascript' src='assets/js/shCore.js'></script>
-<script type='text/javascript' src='assets/js/shBrushCss.js'></script>
-<script type='text/javascript' src='assets/js/shBrushJScript.js'></script>
-<script type='text/javascript' src='assets/js/shBrushPhp.js'></script>
-<script type='text/javascript' src='assets/js/shBrushSass.js'></script>
+<script type='text/javascript' src='assets/js/utilities/shCore.js'></script>
+<script type='text/javascript' src='assets/js/utilities/shBrushCss.js'></script>
+<script type='text/javascript' src='assets/js/utilities/shBrushJScript.js'></script>
+<script type='text/javascript' src='assets/js/utilities/shBrushPhp.js'></script>
+<script type='text/javascript' src='assets/js/utilities/shBrushSass.js'></script>
 <script type="text/javascript">
      SyntaxHighlighter.all()
 </script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type='text/javascript' src='assets/js/scripts.js'></script> 
 </body>
 </html>

@@ -1,14 +1,30 @@
 /* ---------- TYPE ---------- */
 /*--------------------------------------------------*/
+/*Misc type elements*/
+abbr[title] {border-bottom:1px dotted;}
+hr  {-webkit-box-sizing:content-box;-moz-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box; height:0;}
+mark {background:#ff0; color:#000;}
+code,kbd,pre,samp {font-family:monospace, serif; font-size:em(13px);}
+pre {white-space:pre-wrap; overflow-X:scroll; background:#f6f7fa; padding:40px 25px; }
+q 	{quotes: "\201C" "\201D" "\2018" "\2019";}
+small {font-size:80%;}
+sub, sup  {font-size:75%;line-height:0; vertical-align: baseline;}
+sup {top:-0.5em;}
+sub {bottom:-0.25em;}
 
+/*Main Type elements*/
+p	{font-size:em(18px); line-height:26px; margin-bottom:12px; color:$black1; font-family:helvetica,arial,sans-serif;
+	a {
+		&:hover {
+			text-decoration:underline;
+		}
+	}
+}
 
-// Font classes
-.rale-thin {font-family:'raleway-thin',Helvetica,Arial,sans-serif; text-transform: uppercase;}
-.got-book {font-family:'gotham-book',Helvetica,Arial,sans-serif; text-transform: uppercase;}
-.font-awesome {font-family:fontAwesome;}
-.voll {font-family: 'Vollkorn', serif;}
-.open-sans {font-family: 'Open Sans', sans-serif;}
-.georgia {font-family:"Georgia","times New Roman", sans-serif;}
-
-//style mods
-.amp 	{font-family: 'Abril Fatface', cursive;}//ampersand
+h1,h2,h3,h4,h5, h6		{font-family:sans-serif; }
+h1						{font-size:em(37px); line-height:41px;  }
+h2						{font-size:em(31px); line-height:38px;}
+h3						{font-size:em(28px); line-height:31px;}
+h4						{font-size:em(23px); line-height:28px;}
+h5						{font-size:em(21px); line-height:23px;}
+h6						{font-size:em(18px); line-height:21px;}

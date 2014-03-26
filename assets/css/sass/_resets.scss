@@ -41,7 +41,6 @@ fieldset, img { border:0; }
 address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal; }
 ol, ul, li { list-style:none; }
 caption, th { text-align:left; }
-h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
 blockquote:before, blockquote:after,q:before, q:after { content:'';content:none;}
 strong,th,b { font-weight:bold; }
 em,dfn { font-style:italic; }
@@ -54,7 +53,7 @@ a:link					{}
 a:visited				{}
 
 /*FORM STYLES*/
-button,input,select, textarea { line-height: normal; font-family:inherit; font-size:100%; margin:0;}
+button,input,select, textarea { line-height: normal; font-family:inherit; font-size:100%; margin:0;border:none;  outline:none;}
 textarea {overflow:auto; vertical-align: top;}
 input[type="checkbox"],input[type="radio"] 	{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box; padding:0;}
 button[disabled], html input[disabled] {cursor: default;}
@@ -73,45 +72,16 @@ audio:not([controls]) { display: none;height: 0;}
 
 /*VIDEO & IMAGE */
 img,object,video,iframe {max-width:100%;}
-.videoWrapper {padding-bottom:56.25%; padding-top:20px; height:0;
+.video-wrap {padding-bottom:56.25%; padding-top:20px; height:0;
 	video, embed, iframe, object	{position:absolute; top:0; left:0; width:100% !important; height:100% !important;}
 }
 svg:not(:root)  {overflow:hidden;}
 
 
-/* ---------- TYPE ---------- */
-/*--------------------------------------------------*/
-/*Misc type elements*/
-abbr[title] {border-bottom:1px dotted;}
-hr  {-webkit-box-sizing:content-box;-moz-box-sizing:content-box;-ms-box-sizing:content-box;box-sizing:content-box; height:0;}
-mark {background:#ff0; color:#000;}
-code,kbd,pre,samp {font-family:monospace, serif; font-size:em(13px);}
-pre {white-space:pre-wrap; overflow-X:scroll; background:#f6f7fa; padding:40px 25px; }
-q 	{quotes: "\201C" "\201D" "\2018" "\2019";}
-small {font-size:80%;}
-sub, sup  {font-size:75%;line-height:0; vertical-align: baseline;}
-sup {top:-0.5em;}
-sub {bottom:-0.25em;}
-
-/*Main Type elements*/
-p	{font-size:em(16px);line-height:25px; margin-bottom:25px; color:$black1;
-	a {text-decoration:underline;}
-}
-
-h1, h2, h3, h4, h5		{font-family:sans-serif; }
-h1						{font-size:em(52px);}
-h2						{font-size:em(26px);}
-h3						{font-size:em(18px);}
-h4						{font-size:em(16px);}
-h5						{font-size:em(14px);}
-
-
-
-
 /*PAGE SPECIFIC*/
-html,body	{height:100%;}
+html,body	{min-height:100%; height:auto !important; height:100%; padding:0;}
 html 		{font-size:16px /*declare base font size*/;}
-body 		{font-size:62.5%; @include open; height:100%; }
+body 		{font-size:62.5%;}
 
 
 

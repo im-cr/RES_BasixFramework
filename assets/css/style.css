@@ -10,7 +10,6 @@
 
 /*  Font Awesome styles
     ------------------------------------------------------- */
-/* line 15, sass/_fonts.scss */
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: FontAwesome;
@@ -30,7 +29,6 @@
   margin-top: 0;
 }
 
-/* line 35, sass/_fonts.scss */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   text-decoration: inherit;
@@ -39,1301 +37,1042 @@
 }
 
 /* makes sure icons active on rollover in links */
-/* line 44, sass/_fonts.scss */
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block;
 }
 
 /* makes the font 33% larger relative to the icon container */
-/* line 50, sass/_fonts.scss */
 .icon-large:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
 }
 
-/* line 55, sass/_fonts.scss */
 .icon-muted {
   color: #eeeeee;
 }
 
-/* line 62, sass/_fonts.scss */
 .icon-border {
   border: solid 1px #eeeeee;
   padding: .2em .25em .15em;
 }
 
-/* line 71, sass/_fonts.scss */
 .icon-2x {
   font-size: 2em;
 }
-/* line 73, sass/_fonts.scss */
 .icon-2x.icon-border {
   border-width: 2px;
 }
 
-/* line 78, sass/_fonts.scss */
 .icon-3x {
   font-size: 3em;
 }
-/* line 80, sass/_fonts.scss */
 .icon-3x.icon-border {
   border-width: 3px;
 }
 
-/* line 85, sass/_fonts.scss */
 .icon-4x {
   font-size: 4em;
 }
-/* line 87, sass/_fonts.scss */
 .icon-4x.icon-border {
   border-width: 4px;
 }
 
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
-/* line 94, sass/_fonts.scss */
 .icon-glass:before {
   content: "\f000";
 }
 
-/* line 95, sass/_fonts.scss */
 .icon-music:before {
   content: "\f001";
 }
 
-/* line 96, sass/_fonts.scss */
 .icon-search:before {
   content: "\f002";
 }
 
-/* line 97, sass/_fonts.scss */
 .icon-envelope:before {
   content: "\f003";
 }
 
-/* line 98, sass/_fonts.scss */
 .icon-heart:before {
   content: "\f004";
 }
 
-/* line 99, sass/_fonts.scss */
 .icon-star:before {
   content: "\f005";
 }
 
-/* line 100, sass/_fonts.scss */
 .icon-star-empty:before {
   content: "\f006";
 }
 
-/* line 101, sass/_fonts.scss */
 .icon-user:before {
   content: "\f007";
 }
 
-/* line 102, sass/_fonts.scss */
 .icon-film:before {
   content: "\f008";
 }
 
-/* line 103, sass/_fonts.scss */
 .icon-th-large:before {
   content: "\f009";
 }
 
-/* line 104, sass/_fonts.scss */
 .icon-th:before {
   content: "\f00a";
 }
 
-/* line 105, sass/_fonts.scss */
 .icon-th-list:before {
   content: "\f00b";
 }
 
-/* line 106, sass/_fonts.scss */
 .icon-ok:before {
   content: "\f00c";
 }
 
-/* line 107, sass/_fonts.scss */
 .icon-remove:before {
   content: "\f00d";
 }
 
-/* line 108, sass/_fonts.scss */
 .icon-zoom-in:before {
   content: "\f00e";
 }
 
-/* line 110, sass/_fonts.scss */
 .icon-zoom-out:before {
   content: "\f010";
 }
 
-/* line 111, sass/_fonts.scss */
 .icon-off:before {
   content: "\f011";
 }
 
-/* line 112, sass/_fonts.scss */
 .icon-signal:before {
   content: "\f012";
 }
 
-/* line 113, sass/_fonts.scss */
 .icon-cog:before {
   content: "\f013";
 }
 
-/* line 114, sass/_fonts.scss */
 .icon-trash:before {
   content: "\f014";
 }
 
-/* line 115, sass/_fonts.scss */
 .icon-home:before {
   content: "\f015";
 }
 
-/* line 116, sass/_fonts.scss */
 .icon-file:before {
   content: "\f016";
 }
 
-/* line 117, sass/_fonts.scss */
 .icon-time:before {
   content: "\f017";
 }
 
-/* line 118, sass/_fonts.scss */
 .icon-road:before {
   content: "\f018";
 }
 
-/* line 119, sass/_fonts.scss */
 .icon-download-alt:before {
   content: "\f019";
 }
 
-/* line 120, sass/_fonts.scss */
 .icon-download:before {
   content: "\f01a";
 }
 
-/* line 121, sass/_fonts.scss */
 .icon-upload:before {
   content: "\f01b";
 }
 
-/* line 122, sass/_fonts.scss */
 .icon-inbox:before {
   content: "\f01c";
 }
 
-/* line 123, sass/_fonts.scss */
 .icon-play-circle:before {
   content: "\f01d";
 }
 
-/* line 124, sass/_fonts.scss */
 .icon-repeat:before {
   content: "\f01e";
 }
 
 /* \f020 doesn't work in Safari. all shifted one down */
-/* line 127, sass/_fonts.scss */
 .icon-refresh:before {
   content: "\f021";
 }
 
-/* line 128, sass/_fonts.scss */
 .icon-list-alt:before {
   content: "\f022";
 }
 
-/* line 129, sass/_fonts.scss */
 .icon-lock:before {
   content: "\f023";
 }
 
-/* line 130, sass/_fonts.scss */
 .icon-flag:before {
   content: "\f024";
 }
 
-/* line 131, sass/_fonts.scss */
 .icon-headphones:before {
   content: "\f025";
 }
 
-/* line 132, sass/_fonts.scss */
 .icon-volume-off:before {
   content: "\f026";
 }
 
-/* line 133, sass/_fonts.scss */
 .icon-volume-down:before {
   content: "\f027";
 }
 
-/* line 134, sass/_fonts.scss */
 .icon-volume-up:before {
   content: "\f028";
 }
 
-/* line 135, sass/_fonts.scss */
 .icon-qrcode:before {
   content: "\f029";
 }
 
-/* line 136, sass/_fonts.scss */
 .icon-barcode:before {
   content: "\f02a";
 }
 
-/* line 137, sass/_fonts.scss */
 .icon-tag:before {
   content: "\f02b";
 }
 
-/* line 138, sass/_fonts.scss */
 .icon-tags:before {
   content: "\f02c";
 }
 
-/* line 139, sass/_fonts.scss */
 .icon-book:before {
   content: "\f02d";
 }
 
-/* line 140, sass/_fonts.scss */
 .icon-bookmark:before {
   content: "\f02e";
 }
 
-/* line 141, sass/_fonts.scss */
 .icon-print:before {
   content: "\f02f";
 }
 
-/* line 143, sass/_fonts.scss */
 .icon-camera:before {
   content: "\f030";
 }
 
-/* line 144, sass/_fonts.scss */
 .icon-font:before {
   content: "\f031";
 }
 
-/* line 145, sass/_fonts.scss */
 .icon-bold:before {
   content: "\f032";
 }
 
-/* line 146, sass/_fonts.scss */
 .icon-italic:before {
   content: "\f033";
 }
 
-/* line 147, sass/_fonts.scss */
 .icon-text-height:before {
   content: "\f034";
 }
 
-/* line 148, sass/_fonts.scss */
 .icon-text-width:before {
   content: "\f035";
 }
 
-/* line 149, sass/_fonts.scss */
 .icon-align-left:before {
   content: "\f036";
 }
 
-/* line 150, sass/_fonts.scss */
 .icon-align-center:before {
   content: "\f037";
 }
 
-/* line 151, sass/_fonts.scss */
 .icon-align-right:before {
   content: "\f038";
 }
 
-/* line 152, sass/_fonts.scss */
 .icon-align-justify:before {
   content: "\f039";
 }
 
-/* line 153, sass/_fonts.scss */
 .icon-list:before {
   content: "\f03a";
 }
 
-/* line 154, sass/_fonts.scss */
 .icon-indent-left:before {
   content: "\f03b";
 }
 
-/* line 155, sass/_fonts.scss */
 .icon-indent-right:before {
   content: "\f03c";
 }
 
-/* line 156, sass/_fonts.scss */
 .icon-facetime-video:before {
   content: "\f03d";
 }
 
-/* line 157, sass/_fonts.scss */
 .icon-picture:before {
   content: "\f03e";
 }
 
-/* line 159, sass/_fonts.scss */
 .icon-pencil:before {
   content: "\f040";
 }
 
-/* line 160, sass/_fonts.scss */
 .icon-map-marker:before {
   content: "\f041";
 }
 
-/* line 161, sass/_fonts.scss */
 .icon-adjust:before {
   content: "\f042";
 }
 
-/* line 162, sass/_fonts.scss */
 .icon-tint:before {
   content: "\f043";
 }
 
-/* line 163, sass/_fonts.scss */
 .icon-edit:before {
   content: "\f044";
 }
 
-/* line 164, sass/_fonts.scss */
 .icon-share:before {
   content: "\f045";
 }
 
-/* line 165, sass/_fonts.scss */
 .icon-check:before {
   content: "\f046";
 }
 
-/* line 166, sass/_fonts.scss */
 .icon-move:before {
   content: "\f047";
 }
 
-/* line 167, sass/_fonts.scss */
 .icon-step-backward:before {
   content: "\f048";
 }
 
-/* line 168, sass/_fonts.scss */
 .icon-fast-backward:before {
   content: "\f049";
 }
 
-/* line 169, sass/_fonts.scss */
 .icon-backward:before {
   content: "\f04a";
 }
 
-/* line 170, sass/_fonts.scss */
 .icon-play:before {
   content: "\f04b";
 }
 
-/* line 171, sass/_fonts.scss */
 .icon-pause:before {
   content: "\f04c";
 }
 
-/* line 172, sass/_fonts.scss */
 .icon-stop:before {
   content: "\f04d";
 }
 
-/* line 173, sass/_fonts.scss */
 .icon-forward:before {
   content: "\f04e";
 }
 
-/* line 175, sass/_fonts.scss */
 .icon-fast-forward:before {
   content: "\f050";
 }
 
-/* line 176, sass/_fonts.scss */
 .icon-step-forward:before {
   content: "\f051";
 }
 
-/* line 177, sass/_fonts.scss */
 .icon-eject:before {
   content: "\f052";
 }
 
-/* line 178, sass/_fonts.scss */
 .icon-chevron-left:before {
   content: "\f053";
 }
 
-/* line 179, sass/_fonts.scss */
 .icon-chevron-right:before {
   content: "\f054";
 }
 
-/* line 180, sass/_fonts.scss */
 .icon-plus-sign:before {
   content: "\f055";
 }
 
-/* line 181, sass/_fonts.scss */
 .icon-minus-sign:before {
   content: "\f056";
 }
 
-/* line 182, sass/_fonts.scss */
 .icon-remove-sign:before {
   content: "\f057";
 }
 
-/* line 183, sass/_fonts.scss */
 .icon-ok-sign:before {
   content: "\f058";
 }
 
-/* line 184, sass/_fonts.scss */
 .icon-question-sign:before {
   content: "\f059";
 }
 
-/* line 185, sass/_fonts.scss */
 .icon-info-sign:before {
   content: "\f05a";
 }
 
-/* line 186, sass/_fonts.scss */
 .icon-screenshot:before {
   content: "\f05b";
 }
 
-/* line 187, sass/_fonts.scss */
 .icon-remove-circle:before {
   content: "\f05c";
 }
 
-/* line 188, sass/_fonts.scss */
 .icon-ok-circle:before {
   content: "\f05d";
 }
 
-/* line 189, sass/_fonts.scss */
 .icon-ban-circle:before {
   content: "\f05e";
 }
 
-/* line 191, sass/_fonts.scss */
 .icon-arrow-left:before {
   content: "\f060";
 }
 
-/* line 192, sass/_fonts.scss */
 .icon-arrow-right:before {
   content: "\f061";
 }
 
-/* line 193, sass/_fonts.scss */
 .icon-arrow-up:before {
   content: "\f062";
 }
 
-/* line 194, sass/_fonts.scss */
 .icon-arrow-down:before {
   content: "\f063";
 }
 
-/* line 195, sass/_fonts.scss */
 .icon-share-alt:before {
   content: "\f064";
 }
 
-/* line 196, sass/_fonts.scss */
 .icon-resize-full:before {
   content: "\f065";
 }
 
-/* line 197, sass/_fonts.scss */
 .icon-resize-small:before {
   content: "\f066";
 }
 
-/* line 198, sass/_fonts.scss */
 .icon-plus:before {
   content: "\f067";
 }
 
-/* line 199, sass/_fonts.scss */
 .icon-minus:before {
   content: "\f068";
 }
 
-/* line 200, sass/_fonts.scss */
 .icon-asterisk:before {
   content: "\f069";
 }
 
-/* line 201, sass/_fonts.scss */
 .icon-exclamation-sign:before {
   content: "\f06a";
 }
 
-/* line 202, sass/_fonts.scss */
 .icon-gift:before {
   content: "\f06b";
 }
 
-/* line 203, sass/_fonts.scss */
 .icon-leaf:before {
   content: "\f06c";
 }
 
-/* line 204, sass/_fonts.scss */
 .icon-fire:before {
   content: "\f06d";
 }
 
-/* line 205, sass/_fonts.scss */
 .icon-eye-open:before {
   content: "\f06e";
 }
 
-/* line 207, sass/_fonts.scss */
 .icon-eye-close:before {
   content: "\f070";
 }
 
-/* line 208, sass/_fonts.scss */
 .icon-warning-sign:before {
   content: "\f071";
 }
 
-/* line 209, sass/_fonts.scss */
 .icon-plane:before {
   content: "\f072";
 }
 
-/* line 210, sass/_fonts.scss */
 .icon-calendar:before {
   content: "\f073";
 }
 
-/* line 211, sass/_fonts.scss */
 .icon-random:before {
   content: "\f074";
 }
 
-/* line 212, sass/_fonts.scss */
 .icon-comment:before {
   content: "\f075";
 }
 
-/* line 213, sass/_fonts.scss */
 .icon-magnet:before {
   content: "\f076";
 }
 
-/* line 214, sass/_fonts.scss */
 .icon-chevron-up:before {
   content: "\f077";
 }
 
-/* line 215, sass/_fonts.scss */
 .icon-chevron-down:before {
   content: "\f078";
 }
 
-/* line 216, sass/_fonts.scss */
 .icon-retweet:before {
   content: "\f079";
 }
 
-/* line 217, sass/_fonts.scss */
 .icon-shopping-cart:before {
   content: "\f07a";
 }
 
-/* line 218, sass/_fonts.scss */
 .icon-folder-close:before {
   content: "\f07b";
 }
 
-/* line 219, sass/_fonts.scss */
 .icon-folder-open:before {
   content: "\f07c";
 }
 
-/* line 220, sass/_fonts.scss */
 .icon-resize-vertical:before {
   content: "\f07d";
 }
 
-/* line 221, sass/_fonts.scss */
 .icon-resize-horizontal:before {
   content: "\f07e";
 }
 
-/* line 223, sass/_fonts.scss */
 .icon-bar-chart:before {
   content: "\f080";
 }
 
-/* line 224, sass/_fonts.scss */
 .icon-twitter-sign:before {
   content: "\f081";
 }
 
-/* line 225, sass/_fonts.scss */
 .icon-facebook-sign:before {
   content: "\f082";
 }
 
-/* line 226, sass/_fonts.scss */
 .icon-camera-retro:before {
   content: "\f083";
 }
 
-/* line 227, sass/_fonts.scss */
 .icon-key:before {
   content: "\f084";
 }
 
-/* line 228, sass/_fonts.scss */
 .icon-cogs:before {
   content: "\f085";
 }
 
-/* line 229, sass/_fonts.scss */
 .icon-comments:before {
   content: "\f086";
 }
 
-/* line 230, sass/_fonts.scss */
 .icon-thumbs-up:before {
   content: "\f087";
 }
 
-/* line 231, sass/_fonts.scss */
 .icon-thumbs-down:before {
   content: "\f088";
 }
 
-/* line 232, sass/_fonts.scss */
 .icon-star-half:before {
   content: "\f089";
 }
 
-/* line 233, sass/_fonts.scss */
 .icon-heart-empty:before {
   content: "\f08a";
 }
 
-/* line 234, sass/_fonts.scss */
 .icon-signout:before {
   content: "\f08b";
 }
 
-/* line 235, sass/_fonts.scss */
 .icon-linkedin-sign:before {
   content: "\f08c";
 }
 
-/* line 236, sass/_fonts.scss */
 .icon-pushpin:before {
   content: "\f08d";
 }
 
-/* line 237, sass/_fonts.scss */
 .icon-external-link:before {
   content: "\f08e";
 }
 
-/* line 239, sass/_fonts.scss */
 .icon-signin:before {
   content: "\f090";
 }
 
-/* line 240, sass/_fonts.scss */
 .icon-trophy:before {
   content: "\f091";
 }
 
-/* line 241, sass/_fonts.scss */
 .icon-github-sign:before {
   content: "\f092";
 }
 
-/* line 242, sass/_fonts.scss */
 .icon-upload-alt:before {
   content: "\f093";
 }
 
-/* line 243, sass/_fonts.scss */
 .icon-lemon:before {
   content: "\f094";
 }
 
-/* line 244, sass/_fonts.scss */
 .icon-phone:before {
   content: "\f095";
 }
 
-/* line 245, sass/_fonts.scss */
 .icon-check-empty:before {
   content: "\f096";
 }
 
-/* line 246, sass/_fonts.scss */
 .icon-bookmark-empty:before {
   content: "\f097";
 }
 
-/* line 247, sass/_fonts.scss */
 .icon-phone-sign:before {
   content: "\f098";
 }
 
-/* line 248, sass/_fonts.scss */
 .icon-twitter:before {
   content: "\f099";
 }
 
-/* line 249, sass/_fonts.scss */
 .icon-facebook:before {
   content: "\f09a";
 }
 
-/* line 250, sass/_fonts.scss */
 .icon-github:before {
   content: "\f09b";
 }
 
-/* line 251, sass/_fonts.scss */
 .icon-unlock:before {
   content: "\f09c";
 }
 
-/* line 252, sass/_fonts.scss */
 .icon-credit-card:before {
   content: "\f09d";
 }
 
-/* line 253, sass/_fonts.scss */
 .icon-rss:before {
   content: "\f09e";
 }
 
-/* line 255, sass/_fonts.scss */
 .icon-hdd:before {
   content: "\f0a0";
 }
 
-/* line 256, sass/_fonts.scss */
 .icon-bullhorn:before {
   content: "\f0a1";
 }
 
-/* line 257, sass/_fonts.scss */
 .icon-bell:before {
   content: "\f0a2";
 }
 
-/* line 258, sass/_fonts.scss */
 .icon-certificate:before {
   content: "\f0a3";
 }
 
-/* line 259, sass/_fonts.scss */
 .icon-hand-right:before {
   content: "\f0a4";
 }
 
-/* line 260, sass/_fonts.scss */
 .icon-hand-left:before {
   content: "\f0a5";
 }
 
-/* line 261, sass/_fonts.scss */
 .icon-hand-up:before {
   content: "\f0a6";
 }
 
-/* line 262, sass/_fonts.scss */
 .icon-hand-down:before {
   content: "\f0a7";
 }
 
-/* line 263, sass/_fonts.scss */
 .icon-circle-arrow-left:before {
   content: "\f0a8";
 }
 
-/* line 264, sass/_fonts.scss */
 .icon-circle-arrow-right:before {
   content: "\f0a9";
 }
 
-/* line 265, sass/_fonts.scss */
 .icon-circle-arrow-up:before {
   content: "\f0aa";
 }
 
-/* line 266, sass/_fonts.scss */
 .icon-circle-arrow-down:before {
   content: "\f0ab";
 }
 
-/* line 267, sass/_fonts.scss */
 .icon-globe:before {
   content: "\f0ac";
 }
 
-/* line 268, sass/_fonts.scss */
 .icon-wrench:before {
   content: "\f0ad";
 }
 
-/* line 269, sass/_fonts.scss */
 .icon-tasks:before {
   content: "\f0ae";
 }
 
-/* line 271, sass/_fonts.scss */
 .icon-filter:before {
   content: "\f0b0";
 }
 
-/* line 272, sass/_fonts.scss */
 .icon-briefcase:before {
   content: "\f0b1";
 }
 
-/* line 273, sass/_fonts.scss */
 .icon-fullscreen:before {
   content: "\f0b2";
 }
 
-/* line 275, sass/_fonts.scss */
 .icon-group:before {
   content: "\f0c0";
 }
 
-/* line 276, sass/_fonts.scss */
 .icon-link:before {
   content: "\f0c1";
 }
 
-/* line 277, sass/_fonts.scss */
 .icon-cloud:before {
   content: "\f0c2";
 }
 
-/* line 278, sass/_fonts.scss */
 .icon-beaker:before {
   content: "\f0c3";
 }
 
-/* line 279, sass/_fonts.scss */
 .icon-cut:before {
   content: "\f0c4";
 }
 
-/* line 280, sass/_fonts.scss */
 .icon-copy:before {
   content: "\f0c5";
 }
 
-/* line 281, sass/_fonts.scss */
 .icon-paper-clip:before {
   content: "\f0c6";
 }
 
-/* line 282, sass/_fonts.scss */
 .icon-save:before {
   content: "\f0c7";
 }
 
-/* line 283, sass/_fonts.scss */
 .icon-sign-blank:before {
   content: "\f0c8";
 }
 
-/* line 284, sass/_fonts.scss */
 .icon-reorder:before {
   content: "\f0c9";
 }
 
-/* line 285, sass/_fonts.scss */
 .icon-list-ul:before {
   content: "\f0ca";
 }
 
-/* line 286, sass/_fonts.scss */
 .icon-list-ol:before {
   content: "\f0cb";
 }
 
-/* line 287, sass/_fonts.scss */
 .icon-strikethrough:before {
   content: "\f0cc";
 }
 
-/* line 288, sass/_fonts.scss */
 .icon-underline:before {
   content: "\f0cd";
 }
 
-/* line 289, sass/_fonts.scss */
 .icon-table:before {
   content: "\f0ce";
 }
 
-/* line 291, sass/_fonts.scss */
 .icon-magic:before {
   content: "\f0d0";
 }
 
-/* line 292, sass/_fonts.scss */
 .icon-truck:before {
   content: "\f0d1";
 }
 
-/* line 293, sass/_fonts.scss */
 .icon-pinterest:before {
   content: "\f0d2";
 }
 
-/* line 294, sass/_fonts.scss */
 .icon-pinterest-sign:before {
   content: "\f0d3";
 }
 
-/* line 295, sass/_fonts.scss */
 .icon-google-plus-sign:before {
   content: "\f0d4";
 }
 
-/* line 296, sass/_fonts.scss */
 .icon-google-plus:before {
   content: "\f0d5";
 }
 
-/* line 297, sass/_fonts.scss */
 .icon-money:before {
   content: "\f0d6";
 }
 
-/* line 298, sass/_fonts.scss */
 .icon-caret-down:before {
   content: "\f0d7";
 }
 
-/* line 299, sass/_fonts.scss */
 .icon-caret-up:before {
   content: "\f0d8";
 }
 
-/* line 300, sass/_fonts.scss */
 .icon-caret-left:before {
   content: "\f0d9";
 }
 
-/* line 301, sass/_fonts.scss */
 .icon-caret-right:before {
   content: "\f0da";
 }
 
-/* line 302, sass/_fonts.scss */
 .icon-columns:before {
   content: "\f0db";
 }
 
-/* line 303, sass/_fonts.scss */
 .icon-sort:before {
   content: "\f0dc";
 }
 
-/* line 304, sass/_fonts.scss */
 .icon-sort-down:before {
   content: "\f0dd";
 }
 
-/* line 305, sass/_fonts.scss */
 .icon-sort-up:before {
   content: "\f0de";
 }
 
-/* line 307, sass/_fonts.scss */
 .icon-envelope-alt:before {
   content: "\f0e0";
 }
 
-/* line 308, sass/_fonts.scss */
 .icon-linkedin:before {
   content: "\f0e1";
 }
 
-/* line 309, sass/_fonts.scss */
 .icon-undo:before {
   content: "\f0e2";
 }
 
-/* line 310, sass/_fonts.scss */
 .icon-legal:before {
   content: "\f0e3";
 }
 
-/* line 311, sass/_fonts.scss */
 .icon-dashboard:before {
   content: "\f0e4";
 }
 
-/* line 312, sass/_fonts.scss */
 .icon-comment-alt:before {
   content: "\f0e5";
 }
 
-/* line 313, sass/_fonts.scss */
 .icon-comments-alt:before {
   content: "\f0e6";
 }
 
-/* line 314, sass/_fonts.scss */
 .icon-bolt:before {
   content: "\f0e7";
 }
 
-/* line 315, sass/_fonts.scss */
 .icon-sitemap:before {
   content: "\f0e8";
 }
 
-/* line 316, sass/_fonts.scss */
 .icon-umbrella:before {
   content: "\f0e9";
 }
 
-/* line 317, sass/_fonts.scss */
 .icon-paste:before {
   content: "\f0ea";
 }
 
-/* line 318, sass/_fonts.scss */
 .icon-lightbulb:before {
   content: "\f0eb";
 }
 
-/* line 319, sass/_fonts.scss */
 .icon-exchange:before {
   content: "\f0ec";
 }
 
-/* line 320, sass/_fonts.scss */
 .icon-cloud-download:before {
   content: "\f0ed";
 }
 
-/* line 321, sass/_fonts.scss */
 .icon-cloud-upload:before {
   content: "\f0ee";
 }
 
-/* line 323, sass/_fonts.scss */
 .icon-user-md:before {
   content: "\f0f0";
 }
 
-/* line 324, sass/_fonts.scss */
 .icon-stethoscope:before {
   content: "\f0f1";
 }
 
-/* line 325, sass/_fonts.scss */
 .icon-suitcase:before {
   content: "\f0f2";
 }
 
-/* line 326, sass/_fonts.scss */
 .icon-bell-alt:before {
   content: "\f0f3";
 }
 
-/* line 327, sass/_fonts.scss */
 .icon-coffee:before {
   content: "\f0f4";
 }
 
-/* line 328, sass/_fonts.scss */
 .icon-food:before {
   content: "\f0f5";
 }
 
-/* line 329, sass/_fonts.scss */
 .icon-file-alt:before {
   content: "\f0f6";
 }
 
-/* line 330, sass/_fonts.scss */
 .icon-building:before {
   content: "\f0f7";
 }
 
-/* line 331, sass/_fonts.scss */
 .icon-hospital:before {
   content: "\f0f8";
 }
 
-/* line 332, sass/_fonts.scss */
 .icon-ambulance:before {
   content: "\f0f9";
 }
 
-/* line 333, sass/_fonts.scss */
 .icon-medkit:before {
   content: "\f0fa";
 }
 
-/* line 334, sass/_fonts.scss */
 .icon-fighter-jet:before {
   content: "\f0fb";
 }
 
-/* line 335, sass/_fonts.scss */
 .icon-beer:before {
   content: "\f0fc";
 }
 
-/* line 336, sass/_fonts.scss */
 .icon-h-sign:before {
   content: "\f0fd";
 }
 
-/* line 337, sass/_fonts.scss */
 .icon-plus-sign-alt:before {
   content: "\f0fe";
 }
 
-/* line 339, sass/_fonts.scss */
 .icon-double-angle-left:before {
   content: "\f100";
 }
 
-/* line 340, sass/_fonts.scss */
 .icon-double-angle-right:before {
   content: "\f101";
 }
 
-/* line 341, sass/_fonts.scss */
 .icon-double-angle-up:before {
   content: "\f102";
 }
 
-/* line 342, sass/_fonts.scss */
 .icon-double-angle-down:before {
   content: "\f103";
 }
 
-/* line 343, sass/_fonts.scss */
 .icon-angle-left:before {
   content: "\f104";
 }
 
-/* line 344, sass/_fonts.scss */
 .icon-angle-right:before {
   content: "\f105";
 }
 
-/* line 345, sass/_fonts.scss */
 .icon-angle-up:before {
   content: "\f106";
 }
 
-/* line 346, sass/_fonts.scss */
 .icon-angle-down:before {
   content: "\f107";
 }
 
-/* line 347, sass/_fonts.scss */
 .icon-desktop:before {
   content: "\f108";
 }
 
-/* line 348, sass/_fonts.scss */
 .icon-laptop:before {
   content: "\f109";
 }
 
-/* line 349, sass/_fonts.scss */
 .icon-tablet:before {
   content: "\f10a";
 }
 
-/* line 350, sass/_fonts.scss */
 .icon-mobile-phone:before {
   content: "\f10b";
 }
 
-/* line 351, sass/_fonts.scss */
 .icon-circle-blank:before {
   content: "\f10c";
 }
 
-/* line 352, sass/_fonts.scss */
 .icon-quote-left:before {
   content: "\f10d";
 }
 
-/* line 353, sass/_fonts.scss */
 .icon-quote-right:before {
   content: "\f10e";
 }
 
-/* line 355, sass/_fonts.scss */
 .icon-spinner:before {
   content: "\f110";
 }
 
-/* line 356, sass/_fonts.scss */
 .icon-circle:before {
   content: "\f111";
 }
 
-/* line 357, sass/_fonts.scss */
 .icon-reply:before {
   content: "\f112";
 }
 
-/* line 358, sass/_fonts.scss */
 .icon-github-alt:before {
   content: "\f113";
 }
 
-/* line 359, sass/_fonts.scss */
 .icon-folder-close-alt:before {
   content: "\f114";
 }
 
-/* line 360, sass/_fonts.scss */
 .icon-folder-open-alt:before {
   content: "\f115";
 }
@@ -1341,28 +1080,24 @@ a [class*=" icon-"] {
 /* ---------- RESETS ---------- */
 /*--------------------------------------------------*/
 /* SELECTION COLOR*/
-/* line 4, sass/_resets.scss */
 ::-moz-selection {
   background: #FF5E99;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 5, sass/_resets.scss */
 ::-webkit-selection {
   background: #FF5E99;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 6, sass/_resets.scss */
 ::selection {
   background: #FF5E99;
   color: #fff;
   text-shadow: none;
 }
 
-/* line 10, sass/_resets.scss */
 html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, code, pre, sub, sup, form, label, legend,
 fieldset, input, p, blockquote, th, tr, td, iframe, address, article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, span, svg, sub, sup, summary, time, mark, audio, video {
@@ -1381,7 +1116,6 @@ footer, header, hgroup, menu, nav, section, span, svg, sub, sup, summary, time, 
   background-clip: padding-box;
 }
 
-/* line 28, sass/_resets.scss */
 *:before, *:after {
   /*BORDER/PADDING SIZING*/
   -moz-box-sizing: border-box;
@@ -1393,58 +1127,43 @@ footer, header, hgroup, menu, nav, section, span, svg, sub, sup, summary, time, 
   background-clip: padding-box;
 }
 
-/* line 39, sass/_resets.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
   /*removes most spacing in cells*/
 }
 
-/* line 40, sass/_resets.scss */
 fieldset, img {
   border: 0;
 }
 
-/* line 41, sass/_resets.scss */
 address, caption, cite, code, dfn, em, strong, th, var {
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 42, sass/_resets.scss */
 ol, ul, li {
   list-style: none;
 }
 
-/* line 43, sass/_resets.scss */
 caption, th {
   text-align: left;
 }
 
-/* line 44, sass/_resets.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  font-weight: normal;
-}
-
-/* line 45, sass/_resets.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 46, sass/_resets.scss */
 strong, th, b {
   font-weight: bold;
 }
 
-/* line 47, sass/_resets.scss */
 em, dfn {
   font-style: italic;
 }
 
 /*LINK STYLES*/
-/* line 50, sass/_resets.scss */
 a, a img, a:active, a:focus, a:active {
   border: none;
   outline: none;
@@ -1452,27 +1171,25 @@ a, a img, a:active, a:focus, a:active {
 }
 
 /* Gets rid of IE's blue borders */
-/* line 51, sass/_resets.scss */
 a {
   color: #18aec1;
 }
 
 /*FORM STYLES*/
-/* line 57, sass/_resets.scss */
 button, input, select, textarea {
   line-height: normal;
   font-family: inherit;
   font-size: 100%;
   margin: 0;
+  border: none;
+  outline: none;
 }
 
-/* line 58, sass/_resets.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 59, sass/_resets.scss */
 input[type="checkbox"], input[type="radio"] {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1480,19 +1197,16 @@ input[type="checkbox"], input[type="radio"] {
   padding: 0;
 }
 
-/* line 60, sass/_resets.scss */
 button[disabled], html input[disabled] {
   cursor: default;
 }
 
-/* line 61, sass/_resets.scss */
 button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer;
 }
 
 /*BLOCK DISPLAY  ELEMENTS*/
-/* line 66, sass/_resets.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
@@ -1500,31 +1214,26 @@ footer, header, hgroup, main, menu, nav, section, summary {
 }
 
 /*INLINE DISPLAY ELEMENTS*/
-/* line 71, sass/_resets.scss */
 audio, canvas, video {
   display: inline-block;
 }
 
-/* line 72, sass/_resets.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
 /*VIDEO & IMAGE */
-/* line 75, sass/_resets.scss */
 img, object, video, iframe {
   max-width: 100%;
 }
 
-/* line 76, sass/_resets.scss */
-.videoWrapper {
+.video-wrap {
   padding-bottom: 56.25%;
   padding-top: 20px;
   height: 0;
 }
-/* line 77, sass/_resets.scss */
-.videoWrapper video, .videoWrapper embed, .videoWrapper iframe, .videoWrapper object {
+.video-wrap video, .video-wrap embed, .video-wrap iframe, .video-wrap object {
   position: absolute;
   top: 0;
   left: 0;
@@ -1532,39 +1241,33 @@ img, object, video, iframe {
   height: 100% !important;
 }
 
-/* line 79, sass/_resets.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
 /*PAGE SPECIFIC*/
-/* line 81, sass/_resets.scss */
 html, body {
+  min-height: 100%;
+  height: auto !important;
   height: 100%;
+  padding: 0;
 }
 
-/* line 82, sass/_resets.scss */
 html {
   font-size: 16px;
 }
 
-/* line 83, sass/_resets.scss */
 body {
   font-size: 62.5%;
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  height: 100%;
 }
 
 /* ---------- TYPE ---------- */
 /*--------------------------------------------------*/
 /*Misc type elements*/
-/* line 89, sass/_resets.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 90, sass/_resets.scss */
 hr {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -1573,19 +1276,16 @@ hr {
   height: 0;
 }
 
-/* line 91, sass/_resets.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 92, sass/_resets.scss */
 code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 1.3em;
 }
 
-/* line 93, sass/_resets.scss */
 pre {
   white-space: pre-wrap;
   overflow-X: scroll;
@@ -1593,204 +1293,144 @@ pre {
   padding: 40px 25px;
 }
 
-/* line 94, sass/_resets.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/* line 95, sass/_resets.scss */
 small {
   font-size: 80%;
 }
 
-/* line 96, sass/_resets.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   vertical-align: baseline;
 }
 
-/* line 97, sass/_resets.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 98, sass/_resets.scss */
 sub {
   bottom: -0.25em;
 }
 
 /*Main Type elements*/
-/* line 101, sass/_resets.scss */
 p {
-  font-size: 1.6em;
-  line-height: 25px;
-  margin-bottom: 25px;
+  font-size: 1.8em;
+  line-height: 26px;
+  margin-bottom: 12px;
   color: #55606e;
+  font-family: helvetica,arial,sans-serif;
 }
-/* line 102, sass/_resets.scss */
-p a {
+p a:hover {
   text-decoration: underline;
 }
 
-/* line 105, sass/_resets.scss */
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
 }
 
-/* line 106, sass/_resets.scss */
 h1 {
-  font-size: 5.2em;
+  font-size: 3.7em;
+  line-height: 41px;
 }
 
-/* line 107, sass/_resets.scss */
 h2 {
-  font-size: 2.6em;
+  font-size: 3.1em;
+  line-height: 38px;
 }
 
-/* line 108, sass/_resets.scss */
 h3 {
-  font-size: 1.8em;
+  font-size: 2.8em;
+  line-height: 31px;
 }
 
-/* line 109, sass/_resets.scss */
 h4 {
-  font-size: 1.6em;
+  font-size: 2.3em;
+  line-height: 28px;
 }
 
-/* line 110, sass/_resets.scss */
 h5 {
-  font-size: 1.4em;
+  font-size: 2.1em;
+  line-height: 23px;
 }
 
-/* ---------- TYPE ---------- */
-/*--------------------------------------------------*/
-/* line 6, sass/_type.scss */
-.rale-thin {
-  font-family: 'raleway-thin',Helvetica,Arial,sans-serif;
-  text-transform: uppercase;
-}
-
-/* line 7, sass/_type.scss */
-.got-book {
-  font-family: 'gotham-book',Helvetica,Arial,sans-serif;
-  text-transform: uppercase;
-}
-
-/* line 8, sass/_type.scss */
-.font-awesome {
-  font-family: fontAwesome;
-}
-
-/* line 9, sass/_type.scss */
-.voll {
-  font-family: 'Vollkorn', serif;
-}
-
-/* line 10, sass/_type.scss */
-.open-sans {
-  font-family: 'Open Sans', sans-serif;
-}
-
-/* line 11, sass/_type.scss */
-.georgia {
-  font-family: "Georgia","times New Roman", sans-serif;
-}
-
-/* line 14, sass/_type.scss */
-.amp {
-  font-family: 'Abril Fatface', cursive;
+h6 {
+  font-size: 1.8em;
+  line-height: 21px;
 }
 
 /* ---------- UTILITES---------- */
 /*--------------------------------------------------*/
-/* line 3, sass/_utilities.scss */
 .push {
   height: 150px;
 }
 
-/* line 4, sass/_utilities.scss */
 .Rfloat {
   float: right !important;
 }
 
-/* line 5, sass/_utilities.scss */
 .Lfloat {
   float: left;
 }
 
-/* line 6, sass/_utilities.scss */
 .spacer {
   height: 20px;
   display: block;
   width: 100%;
 }
 
-/* line 7, sass/_utilities.scss */
-.pos-abs {
+.absolute {
   position: absolute;
 }
 
-/* line 8, sass/_utilities.scss */
-.pos-fixed {
+.fixed {
   position: fixed;
 }
 
 /*Orphan Margins*/
-/* line 11, sass/_utilities.scss */
 .alpha {
   margin-left: 0px;
 }
 
-/* line 12, sass/_utilities.scss */
 .omega {
   margin-right: 0px;
 }
 
 /*CLEARFIX*/
-/* line 15, sass/_utilities.scss */
 .group:before, .group:after {
   content: '';
   display: table;
 }
 
-/* line 16, sass/_utilities.scss */
 .group:after {
   clear: both;
 }
 
-/* line 17, sass/_utilities.scss */
 .group {
   zoom: 1;
 }
 
-/*--- STATES---*/
-/* line 21, sass/_utilities.scss */
 .is-inline {
   display: inline-block;
 }
-/* line 22, sass/_utilities.scss */
 .is-inline > li {
   display: inline-block;
 }
 
-/* line 24, sass/_utilities.scss */
 .is-hidden {
   display: none;
 }
 
-/* line 25, sass/_utilities.scss */
 .is-invisible {
   visibility: hidden;
 }
 
-/* line 26, sass/_utilities.scss */
 .is-visible {
   display: block;
 }
 
-/*BORDERS*/
-/* line 30, sass/_utilities.scss */
 .bdr {
   border: solid 1px #a7eddf;
   padding: 14px;
@@ -1798,45 +1438,26 @@ h5 {
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
 }
-/* line 31, sass/_utilities.scss */
 .bdr:hover {
   background: #a7eddf;
 }
 
-/* line 33, sass/_utilities.scss */
 .rad-3 {
   border-radius: 3px;
 }
 
-/* line 34, sass/_utilities.scss */
 .rad-5 {
   border-radius: 5px;
 }
 
-/* line 35, sass/_utilities.scss */
 .rad-10 {
   border-radius: 10px;
 }
 
-/* line 36, sass/_utilities.scss */
-.rad-circle {
+.circle {
   border-radius: 50%;
 }
 
-/*HEADINGS & TYPE*/
-/* line 40, sass/_utilities.scss */
-.title-page {
-  font-size: 5.2em;
-  margin-bottom: 40px;
-}
-
-/* line 43, sass/_utilities.scss */
-.caps {
-  text-transform: uppercase;
-}
-
-/*BUTTONS*/
-/* line 48, sass/_utilities.scss */
 .btn {
   background: #a7eddf;
   color: #fff;
@@ -1851,12 +1472,13 @@ h5 {
   transition: all ease-in-out 0.5s;
   border-radius: 3px;
 }
-/* line 63, sass/_utilities.scss */
+.btn:hover {
+  cursor: pointer;
+}
 .btn:focus, .btn:active {
   position: relative;
   top: 2px !important;
 }
-/* line 65, sass/_utilities.scss */
 .btn.btn-yellow {
   background: #fad30a;
   color: #806a00;
@@ -1864,18 +1486,15 @@ h5 {
   font-weight: bold;
   box-shadow: 0px 5px 0px #dcb904;
 }
-/* line 72, sass/_utilities.scss */
 .btn.btn-yellow:hover {
   background: #e6c105;
   color: #fff;
   text-shadow: none;
 }
-/* line 80, sass/_utilities.scss */
 .btn.btn-large {
   font-size: 1.6em;
   padding: 20px 10px;
 }
-/* line 86, sass/_utilities.scss */
 .btn.btn-shadow {
   -moz-box-shadow: 0px 0px 0px 5px rgba(200, 200, 200, 0.2);
   -webkit-box-shadow: 0px 0px 0px 5px rgba(200, 200, 200, 0.2);
@@ -1884,357 +1503,291 @@ h5 {
 
 /*ANIMATIONS*/
 @-moz-keyframes slideUp {
-  /* line 95, sass/_utilities.scss */
   0% {
     margin-top: 80px;
   }
 
-  /* line 96, sass/_utilities.scss */
   100% {
     margin-top: 0px;
   }
 }
 
 @-webkit-keyframes slideUp {
-  /* line 99, sass/_utilities.scss */
   0% {
     margin-top: 80px;
   }
 
-  /* line 100, sass/_utilities.scss */
   100% {
     margin-top: 0px;
   }
 }
 
 @keyframes slideUp {
-  /* line 103, sass/_utilities.scss */
   0% {
     margin-top: 80px;
   }
 
-  /* line 104, sass/_utilities.scss */
   100% {
     margin-top: 0px;
   }
 }
 
-/* line 12, sass/_grid.scss */
 .row-full {
   width: 100%;
   max-width: 100%;
-  left: 0;
+  min-width: 280px;
+  min-height: 1px;
 }
 
-/* line 13, sass/_grid.scss */
 .container {
   width: 1080px;
   max-width: 100%;
   margin: 0 auto;
 }
 
-/* line 14, sass/_grid.scss */
 .row {
-  min-width: 300px;
+  min-width: 280px;
   max-width: 100%;
   min-height: 1px;
-  				/*
-  				Columns and grids comprise the structural markup of our grid. Cols form grid
-  				patterns that incorporate margins to allow gutters between each column.
-  
-  				Grids have no margins and directly adjacent to their sibling grid elements
-  
-  				/*Shared*/
-  /*GRIDS*/
 }
-/* line 24, sass/_grid.scss */
-.row [class*="col"], .row [class*="grid"] {
+
+.row [class*="grid"], .row [class*="col"], .row-full [class*="grid"], .row-full [class*="col"] {
   float: left;
   min-height: 1px;
 }
-/* line 25, sass/_grid.scss */
-.row [class*="grid"]:first-child, .row [class*="col"]:first-child {
+.row [class*="grid"]:first-child, .row [class*="col"]:first-child, .row-full [class*="grid"]:first-child, .row-full [class*="col"]:first-child {
   margin-left: 0;
 }
-/* line 28, sass/_grid.scss */
-.row [class*="grid"] + [class*="grid"]:last-child {
+.row [class*="grid"]:first-of-type, .row [class*="col"]:first-of-type, .row-full [class*="grid"]:first-of-type, .row-full [class*="col"]:first-of-type {
+  margin-left: 0;
+}
+.row [class*="grid"] + [class*="grid"]:last-child, .row-full [class*="grid"] + [class*="grid"]:last-child {
   float: right;
 }
-/* line 29, sass/_grid.scss */
-.row [class*="grid"] + [class*="grid"].end {
+.row [class*="grid"] + [class*="grid"]:last-of-type, .row-full [class*="grid"] + [class*="grid"]:last-of-type {
+  float: right;
+}
+.row [class*="grid"] + [class*="grid"].end, .row-full [class*="grid"] + [class*="grid"].end {
   float: left;
 }
-/* line 33, sass/_grid.scss */
-.row [class*="col"] {
+.row [class*="col"], .row-full [class*="col"] {
   margin-left: 1%;
   margin-right: 1%;
 }
-/* line 34, sass/_grid.scss */
-.row [class*="col"] + [class*="col"]:last-child {
+.row [class*="col"] + [class*="col"]:last-child, .row-full [class*="col"] + [class*="col"]:last-child {
   float: right;
   margin-right: 0px !important;
 }
-/* line 35, sass/_grid.scss */
-.row [class*="col"] + [class*="col"].end {
+.row [class*="col"] + [class*="col"]:last-of-type, .row-full [class*="col"] + [class*="col"]:last-of-type {
+  float: right;
+  margin-right: 0px !important;
+}
+.row [class*="col"] + [class*="col"].end, .row-full [class*="col"] + [class*="col"].end {
   float: left;
 }
-/* line 41, sass/_grid.scss */
-.row[class*="grid"] {
+.row[class*="grid"], .row-full[class*="grid"] {
   float: none;
 }
-/* line 42, sass/_grid.scss */
-.row.module {
+.row.module, .row-full.module {
   padding: 20px !important;
 }
 
-/* line 46, sass/_grid.scss */
 .module {
   padding: 20px;
 }
 
-/* line 47, sass/_grid.scss */
 .module-left {
   padding-left: 20px;
 }
 
-/* line 48, sass/_grid.scss */
 .module-right {
   padding-right: 20px;
 }
 
-/* line 49, sass/_grid.scss */
 .module-btm {
   padding-bottom: 20px;
 }
 
-/* line 51, sass/_grid.scss */
 .marg-top {
   margin-top: 20px;
 }
 
-/* line 52, sass/_grid.scss */
 .marg-right {
   margin-right: 20px;
 }
 
-/* line 53, sass/_grid.scss */
 .marg-btm {
   margin-bottom: 20px;
 }
 
-/* line 54, sass/_grid.scss */
 .marg-left {
   margin-left: 20px;
 }
 
-/* line 56, sass/_grid.scss */
+.row, .row-full, .module {
+  zoom: 1;
+}
 .row:before, .row:after, .row-full:before, .row-full:after, .module:before, .module:after {
   content: "";
   display: table;
 }
-
-/* line 57, sass/_grid.scss */
 .row:after, .row-full:after, .module:after {
   clear: both;
 }
 
-/* line 58, sass/_grid.scss */
-.row, .row-full, .module {
-  zoom: 1;
-}
-
-/* line 66, sass/_grid.scss */
 .col-1 {
   width: 6.33333%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-2 {
   width: 14.66667%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-3 {
   width: 23%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-4 {
   width: 31.33333%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-5 {
   width: 39.66667%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-6 {
   width: 48%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-7 {
   width: 56.33333%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-8 {
   width: 64.66667%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-9 {
   width: 73%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-10 {
   width: 81.33333%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-11 {
   width: 89.66667%;
 }
 
-/* line 66, sass/_grid.scss */
 .col-12 {
   width: 100%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-1 {
   width: 8.33333%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-2 {
   width: 16.66667%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-3 {
   width: 25%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-4 {
   width: 33.33333%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-5 {
   width: 41.66667%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-6 {
   width: 50%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-7 {
   width: 58.33333%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-8 {
   width: 66.66667%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-9 {
   width: 75%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-10 {
   width: 83.33333%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-11 {
   width: 91.66667%;
 }
 
-/* line 77, sass/_grid.scss */
 .grid-12 {
   width: 100%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-1 {
   margin-left: 8.33333%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-2 {
   margin-left: 16.66667%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-3 {
   margin-left: 25%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-4 {
   margin-left: 33.33333%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-5 {
   margin-left: 41.66667%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-6 {
   margin-left: 50%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-7 {
   margin-left: 58.33333%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-8 {
   margin-left: 66.66667%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-9 {
   margin-left: 75%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-10 {
   margin-left: 83.33333%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-11 {
   margin-left: 91.66667%;
 }
 
-/* line 88, sass/_grid.scss */
 .offset-12 {
   margin-left: 100%;
 }
 
-/* line 94, sass/_grid.scss */
 .center {
   margin: 0 auto !important;
   float: none !important;
 }
 
-/* line 95, sass/_grid.scss */
 .centered {
-  text-align: center;
+  text-align: center !important;
 }
 
-/* line 3, sass/_forms.scss */
 input[type="text"], input[type="email"], textarea, .select-wrap {
   background: #f8f8f8;
   border: solid 1px #d7ded8;
@@ -2257,13 +1810,11 @@ input[type="text"], input[type="email"], textarea, .select-wrap {
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.9);
 }
 
-/* line 9, sass/_forms.scss */
 address p {
   font-size: 1.4em;
   margin-bottom: 10px;
   line-height: 19px;
 }
-/* line 10, sass/_forms.scss */
 address label {
   font-family: 'Vollkorn', serif;
   font-style: italic;
@@ -2272,7 +1823,6 @@ address label {
   margin-bottom: 8px;
 }
 
-/* line 14, sass/_forms.scss */
 .ed-form label {
   display: block;
   font-weight: bold;
@@ -2283,18 +1833,15 @@ address label {
   font-style: normal;
   text-transform: uppercase;
 }
-/* line 15, sass/_forms.scss */
 .ed-form input[type="text"], .ed-form input[type="email"], .ed-form .select-wrap {
   width: 100%;
   margin-bottom: 15px;
   padding: 13px 10px;
 }
-/* line 17, sass/_forms.scss */
 .ed-form select {
   background: none;
   width: 100%;
 }
-/* line 18, sass/_forms.scss */
 .ed-form textarea {
   width: 100%;
   padding: 40px 20px;
@@ -2303,12 +1850,10 @@ address label {
 }
 
 @media screen and (max-width: 800px) {
-  /* line 3, sass/_media.scss */
   .container {
     padding: 0 20px;
   }
 
-  /* line 5, sass/_media.scss */
   .container, .row, .row [class*="col"], .row [class*="grid"] {
     float: none !important;
     margin-left: 0 !important;
@@ -2317,120 +1862,141 @@ address label {
     width: 100%;
   }
 
-  /* line 12, sass/_media.scss */
   [class*="col"], [class*="grid"] {
     margin-bottom: 10px;
   }
 
-  /* line 13, sass/_media.scss */
   .module, .module-left, .module-right, .contentWrap {
     padding: 0;
   }
 
-  /* line 16, sass/_media.scss */
   .mobile-inline li {
     text-align: center;
   }
 }
-/* line 1, sass/_guide.scss */
 body {
-  background-color: #e9e9e9;
+  background-color: #FBFBF5;
+  font-family: georgia,serif;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* line 3, sass/_guide.scss */
-#content {
-  margin-top: 100px;
+h1, h2, h3, h4, h5 {
+  font-family: helvetica,arial,sans-serif;
+  margin-bottom: 0.4em;
 }
 
-/* line 4, sass/_guide.scss */
-.underline {
-  padding-bottom: 40px;
-  border-bottom: solid 5px #c9c9c9;
+.title {
+  color: #ce8811;
+  margin-bottom: 20px;
 }
 
-/* line 10, sass/_guide.scss */
+.className {
+  font-style: italic;
+  font-weight: bold;
+  color: #18aec1;
+  border-bottom: 1px dotted #b0aaa0;
+  padding-bottom: 3px;
+}
+
+.subheader {
+  font-style: italic;
+}
+
 .main-nav {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
-/* line 11, sass/_guide.scss */
 .main-nav .logo {
   margin-bottom: 0px;
 }
-/* line 12, sass/_guide.scss */
 .main-nav li {
-  padding: 5px 25px;
+  padding: 5px 0px;
   font-size: 1.6em;
 }
-/* line 14, sass/_guide.scss */
 .main-nav li a {
   color: #ce8811;
   font-weight: bold;
   font-size: 14px;
 }
-/* line 15, sass/_guide.scss */
 .main-nav li a:hover {
   text-decoration: underline;
 }
 
-/* line 21, sass/_guide.scss */
 .section-content {
-  border-bottom: solid 1px #c9c9c9;
-  padding-bottom: 40px;
-  margin-bottom: 30px;
+  border-bottom: solid 1px #eae7dc;
+  margin-bottom: 20px;
 }
 
-/* line 23, sass/_guide.scss */
+#content {
+  padding-top: 80px;
+}
+
+.underline {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: dashed 3px #eae7dc;
+  color: #715c4f;
+}
+
 .showcase {
-  background: #d9d9d9;
+  background: #eae7dc;
   text-align: center;
   font-size: 11px;
+  padding: 15px 0;
 }
 
-/* line 26, sass/_guide.scss */
 .grid-show .row {
   margin-bottom: 10px;
 }
+.grid-show .row :nth-child(even) {
+  background: #b0aaa0;
+}
 
-/* line 29, sass/_guide.scss */
+.col-show .row {
+  margin-bottom: 10px;
+}
+
+.coder {
+  padding: 20px;
+  background: #eae7dc;
+  margin-top: 20px;
+}
+
 pre {
   background: #f6f7fa;
   text-align: left;
   margin-bottom: 40px;
+  border: solid 1px red;
 }
 
-/* line 32, sass/_guide.scss */
-.title-block {
-  font-family: 'Vollkorn', serif;
-}
-
-/* line 34, sass/_guide.scss */
 footer {
   margin-top: 40px;
   padding-top: 40px;
   text-align: center;
 }
-/* line 37, sass/_guide.scss */
 footer p {
   font-size: 1.3em;
 }
 
 @media screen and (max-width: 800px) {
-  /* line 42, sass/_guide.scss */
   #content {
-    margin-top: 20px;
+    padding-top: 20px;
   }
 
-  /* line 46, sass/_guide.scss */
   .main-nav li {
     display: block;
   }
-  /* line 47, sass/_guide.scss */
   .main-nav li a {
     padding: 0 10px;
   }
 
-  /* line 53, sass/_guide.scss */
-  .grid-show .row {
+  .grid-show, .col-show {
+    padding: 0;
+  }
+  .grid-show .row, .col-show .row {
     margin-bottom: 0px;
+  }
+
+  .mobile-nav li {
+    text-align: center;
   }
 }

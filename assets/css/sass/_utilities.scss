@@ -4,8 +4,8 @@
 .Rfloat		{float:right !important;}
 .Lfloat		{float:left;}
 .spacer		{height:20px; display:block; width:100%;}
-.pos-abs		{position:absolute;}
-.pos-fixed	{position:fixed; }
+.absolute	{position:absolute;}
+.fixed		{position:fixed; }
 
 /*Orphan Margins*/
 .alpha		{margin-left:0px;}
@@ -17,7 +17,7 @@
 .group			{zoom:1;}
 
 
-/*--- STATES---*/
+///////////////////////////////////////////////////////////// OBJECT STATES ///////////////////////////////////////////////////////////// 
 .is-inline 	{display:inline-block;
 	& > li  {display:inline-block;}
 }
@@ -26,25 +26,17 @@
 .is-visible		{display:block;}
 
 
-/*BORDERS*/
+///////////////////////////////////////////////////////////// BORDER RADIUS ///////////////////////////////////////////////////////////// 
 .bdr {border:solid 1px $blue2; padding:14px; @include transitions;
 	&:hover {background:$blue2;}
 }
 .rad-3		{border-radius:3px}
 .rad-5		{border-radius:5px;}
 .rad-10		{border-radius:10px;}
-.rad-circle {border-radius:50%;}
+.circle {border-radius:50%;}
 
 
-/*HEADINGS & TYPE*/
-.title-page 	{font-size:em(52px); margin-bottom:40px;}
-.title-section 	{}
-.title-block	{}
-.caps {text-transform:uppercase;}
-
-
-
-/*BUTTONS*/
+///////////////////////////////////////////////////////////// BUTTONS ///////////////////////////////////////////////////////////// 
 .btn {	background:$blue2;
 		color:#fff;
 		display:block;
@@ -58,7 +50,11 @@
 		@include border-rad(3);
 	
 
-	&:hover {}
+	&:hover {
+
+		cursor:pointer;
+
+	}
 
 	&:focus, &:active  {position:relative; top:2px !important;}
 
